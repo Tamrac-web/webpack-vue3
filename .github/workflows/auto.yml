@@ -24,7 +24,7 @@ jobs:
           FOLDER: dist # 默认vue项目打包输出目录是dist
           REPOSITORY_NAME: Tamrac-web/webpack-vue3 
           TARGET_FOLDER: / # 打包的文件将放到静态服务器 / 目录下
-          ACCESS_TOKEN: ${{ secrets.TEST_PAT }}
+          ACCESS_TOKEN: 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
           # test
          
 
