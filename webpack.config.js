@@ -27,6 +27,18 @@ const config = {
     port: 10000,
     // 热更新
     hot: true,
+
+    onBeforeSetupMiddleware:(server)=>{
+      server.app.get('/api/test',(req,res,next)=>{
+        res.json({
+          code:200,
+          data:{
+            msg:"你好，移动213第二组"
+          }
+        })
+      })
+    },
+    
   },
 
   // 这些选项决定了如何处理项目中的不同类型的模块。
