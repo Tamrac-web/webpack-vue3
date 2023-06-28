@@ -25,7 +25,7 @@ onMounted(() => {
 body {
   background-color: skyblue;
   h1{
-    align-items: center;
+    text-align: center;
   }
 }
 </style>
