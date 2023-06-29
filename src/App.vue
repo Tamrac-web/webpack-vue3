@@ -17,7 +17,7 @@ onMounted(() => {
 });
 </script>
 
-<!-- test -->
+<!-- test修改 -->
 <template>
  <h1>{{ msg }}</h1> 
 </template>
