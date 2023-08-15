@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { onMounted, ref } from "vue";
 
-const msg = ref("你好，前端工程化！移动213 第二组，测试自动部署！");
+const msg = ref("你好世界！Hello World!");
 
 const getData = () => {
   axios.get('/api/test').then(response => {
